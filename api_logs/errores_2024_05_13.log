@@ -1,0 +1,1984 @@
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 09:31:1715607065
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT `Usuario`.id AS `Usuario_id`, `Usuario`.rut AS `Usuario_rut`, `Usuario`.rut_provisorio AS `Usuario_rut_provisorio`, `Usuario`.nombres AS `Usuario_nombres`, `Usuario`.apellido_paterno AS `Usuario_apellido_paterno`, `Usuario`.apellido_materno AS `Usuario_apellido_materno`, `Usuario`.fecha_nacimiento AS `Usuario_fecha_nacimiento`, `Usuario`.sexo_id AS `Usuario_sexo_id`, `Usuario`.estado_civil_id AS `Usuario_estado_civil_id`, `Usuario`.nacionalidad_id AS `Usuario_nacionalidad_id`, `Usuario`.username AS `Usuario_username`, `Usuario`.password AS `Usuario_password`, `Usuario`.activo AS `Usuario_activo`, `Usuario`.created AS `Usuario_created`, `Usuario`.updated AS `Usuario_updated`, `Usuario`.creator_user AS `Usuario_creator_user`, `Usuario`.updater_user AS `Usuario_updater_user` 
+FROM `Usuario` 
+WHERE `Usuario`.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00070s] {'username_1': 'root', 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 09:34:1715607283
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 09:41:1715607684
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT `Usuario`.id AS `Usuario_id`, `Usuario`.rut AS `Usuario_rut`, `Usuario`.rut_provisorio AS `Usuario_rut_provisorio`, `Usuario`.nombres AS `Usuario_nombres`, `Usuario`.apellido_paterno AS `Usuario_apellido_paterno`, `Usuario`.apellido_materno AS `Usuario_apellido_materno`, `Usuario`.fecha_nacimiento AS `Usuario_fecha_nacimiento`, `Usuario`.sexo_id AS `Usuario_sexo_id`, `Usuario`.estado_civil_id AS `Usuario_estado_civil_id`, `Usuario`.nacionalidad_id AS `Usuario_nacionalidad_id`, `Usuario`.username AS `Usuario_username`, `Usuario`.password AS `Usuario_password`, `Usuario`.activo AS `Usuario_activo`, `Usuario`.created AS `Usuario_created`, `Usuario`.updated AS `Usuario_updated`, `Usuario`.creator_user AS `Usuario_creator_user`, `Usuario`.updater_user AS `Usuario_updater_user` 
+FROM `Usuario` 
+WHERE `Usuario`.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00058s] {'username_1': 'root', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `BancariosUser`.id AS `BancariosUser_id`, `BancariosUser`.user_id AS `BancariosUser_user_id`, `BancariosUser`.banco_id AS `BancariosUser_banco_id`, `BancariosUser`.numero_cuenta AS `BancariosUser_numero_cuenta`, `BancariosUser`.en_uso AS `BancariosUser_en_uso`, `BancariosUser`.terceros AS `BancariosUser_terceros`, `BancariosUser`.rut_tercero AS `BancariosUser_rut_tercero`, `BancariosUser`.nombre_tercero AS `BancariosUser_nombre_tercero`, `BancariosUser`.email_tercero AS `BancariosUser_email_tercero`, `BancariosUser`.created AS `BancariosUser_created`, `BancariosUser`.updated AS `BancariosUser_updated`, `BancariosUser`.creator_user AS `BancariosUser_creator_user`, `BancariosUser`.updater_user AS `BancariosUser_updater_user` 
+FROM `BancariosUser` 
+WHERE `BancariosUser`.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00048s] {'user_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT `BancariosUser`.id AS `BancariosUser_id`, `BancariosUser`.user_id AS `BancariosUser_user_id`, `BancariosUser`.banco_id AS `BancariosUser_banco_id`, `BancariosUser`.numero_cuenta AS `BancariosUser_numero_cuenta`, `BancariosUser`.en_uso AS `BancariosUser_en_uso`, `BancariosUser`.terceros AS `BancariosUser_terceros`, `BancariosUser`.rut_tercero AS `BancariosUser_rut_tercero`, `BancariosUser`.nombre_tercero AS `BancariosUser_nombre_tercero`, `BancariosUser`.email_tercero AS `BancariosUser_email_tercero`, `BancariosUser`.created AS `BancariosUser_created`, `BancariosUser`.updated AS `BancariosUser_updated`, `BancariosUser`.creator_user AS `BancariosUser_creator_user`, `BancariosUser`.updater_user AS `BancariosUser_updater_user` 
+FROM `BancariosUser` 
+WHERE `BancariosUser`.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00106s] {'user_id_1': 1, 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 10:41:1715611281
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `viewProfileUser`.id AS `viewProfileUser_id`, `viewProfileUser`.rut AS `viewProfileUser_rut`, `viewProfileUser`.rut_provisorio AS `viewProfileUser_rut_provisorio`, `viewProfileUser`.`Nacionalidad` AS `viewProfileUser_Nacionalidad`, `viewProfileUser`.nombres AS `viewProfileUser_nombres`, `viewProfileUser`.apellido_paterno AS `viewProfileUser_apellido_paterno`, `viewProfileUser`.apellido_materno AS `viewProfileUser_apellido_materno`, `viewProfileUser`.fecha_nacimiento AS `viewProfileUser_fecha_nacimiento`, `viewProfileUser`.sexo_id AS `viewProfileUser_sexo_id`, `viewProfileUser`.estado_civil_id AS `viewProfileUser_estado_civil_id`, `viewProfileUser`.descripcion_estado_civil AS `viewProfileUser_descripcion_estado_civil`, `viewProfileUser`.nacionalidad_id AS `viewProfileUser_nacionalidad_id`, `viewProfileUser`.username AS `viewProfileUser_username`, `viewProfileUser`.activo AS `viewProfileUser_activo`, `viewProfileUser`.email AS `viewProfileUser_email`, `viewProfileUser`.fijo AS `viewProfileUser_fijo`, `viewProfileUser`.movil AS `viewProfileUser_movil`, `viewProfileUser`.region_id AS `viewProfileUser_region_id`, `viewProfileUser`.comuna_id AS `viewProfileUser_comuna_id`, `viewProfileUser`.direccion AS `viewProfileUser_direccion`, `viewProfileUser`.nomregion AS `viewProfileUser_nomregion`, `viewProfileUser`.orden AS `viewProfileUser_orden`, `viewProfileUser`.nomcomuna AS `viewProfileUser_nomcomuna`, `viewProfileUser`.sociedad_id AS `viewProfileUser_sociedad_id`, `viewProfileUser`.sede_id AS `viewProfileUser_sede_id`, `viewProfileUser`.departamento_id AS `viewProfileUser_departamento_id`, `viewProfileUser`.nomdepartamento AS `viewProfileUser_nomdepartamento`, `viewProfileUser`.grupo_empleados_id AS `viewProfileUser_grupo_empleados_id`, `viewProfileUser`.nombre_grupo AS `viewProfileUser_nombre_grupo`, `viewProfileUser`.nombre_sede AS `viewProfileUser_nombre_sede`, `viewProfileUser`.salario_base AS `viewProfileUser_salario_base`, `viewProfileUser`.periodo_salario AS `viewProfileUser_periodo_salario`, `viewProfileUser`.unidad_sueldo AS `viewProfileUser_unidad_sueldo`, `viewProfileUser`.dias_descanso AS `viewProfileUser_dias_descanso`, `viewProfileUser`.tipo_contrato_id AS `viewProfileUser_tipo_contrato_id`, `viewProfileUser`.termino_contrato_id AS `viewProfileUser_termino_contrato_id`, `viewProfileUser`.fecha_inicio AS `viewProfileUser_fecha_inicio`, `viewProfileUser`.fecha_fin AS `viewProfileUser_fecha_fin`, `viewProfileUser`.hora_ingreso AS `viewProfileUser_hora_ingreso`, `viewProfileUser`.hora_egreso AS `viewProfileUser_hora_egreso`, `viewProfileUser`.modalidad AS `viewProfileUser_modalidad`, `viewProfileUser`.jefatura AS `viewProfileUser_jefatura`, `viewProfileUser`.nivel_estudio AS `viewProfileUser_nivel_estudio`, `viewProfileUser`.nivel_estudio_id AS `viewProfileUser_nivel_estudio_id`, `viewProfileUser`.cargo AS `viewProfileUser_cargo`, `viewProfileUser`.cargo_id AS `viewProfileUser_cargo_id`, `viewProfileUser`.banco_id AS `viewProfileUser_banco_id`, `viewProfileUser`.numero_cuenta AS `viewProfileUser_numero_cuenta`, `viewProfileUser`.en_uso AS `viewProfileUser_en_uso`, `viewProfileUser`.terceros AS `viewProfileUser_terceros`, `viewProfileUser`.rut_tercero AS `viewProfileUser_rut_tercero`, `viewProfileUser`.nombre_tercero AS `viewProfileUser_nombre_tercero`, `viewProfileUser`.email_tercero AS `viewProfileUser_email_tercero`, `viewProfileUser`.vacaciones_acumuladas AS `viewProfileUser_vacaciones_acumuladas`, `viewProfileUser`.nombre_banco AS `viewProfileUser_nombre_banco`, `viewProfileUser`.medio_pago AS `viewProfileUser_medio_pago`, `viewProfileUser`.tipo_cuenta AS `viewProfileUser_tipo_cuenta`, `viewProfileUser`.foto AS `viewProfileUser_foto` 
+FROM `viewProfileUser` 
+WHERE `viewProfileUser`.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00057s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT `viewProfileUser`.id AS `viewProfileUser_id`, `viewProfileUser`.rut AS `viewProfileUser_rut`, `viewProfileUser`.rut_provisorio AS `viewProfileUser_rut_provisorio`, `viewProfileUser`.`Nacionalidad` AS `viewProfileUser_Nacionalidad`, `viewProfileUser`.nombres AS `viewProfileUser_nombres`, `viewProfileUser`.apellido_paterno AS `viewProfileUser_apellido_paterno`, `viewProfileUser`.apellido_materno AS `viewProfileUser_apellido_materno`, `viewProfileUser`.fecha_nacimiento AS `viewProfileUser_fecha_nacimiento`, `viewProfileUser`.sexo_id AS `viewProfileUser_sexo_id`, `viewProfileUser`.estado_civil_id AS `viewProfileUser_estado_civil_id`, `viewProfileUser`.descripcion_estado_civil AS `viewProfileUser_descripcion_estado_civil`, `viewProfileUser`.nacionalidad_id AS `viewProfileUser_nacionalidad_id`, `viewProfileUser`.username AS `viewProfileUser_username`, `viewProfileUser`.activo AS `viewProfileUser_activo`, `viewProfileUser`.email AS `viewProfileUser_email`, `viewProfileUser`.fijo AS `viewProfileUser_fijo`, `viewProfileUser`.movil AS `viewProfileUser_movil`, `viewProfileUser`.region_id AS `viewProfileUser_region_id`, `viewProfileUser`.comuna_id AS `viewProfileUser_comuna_id`, `viewProfileUser`.direccion AS `viewProfileUser_direccion`, `viewProfileUser`.nomregion AS `viewProfileUser_nomregion`, `viewProfileUser`.orden AS `viewProfileUser_orden`, `viewProfileUser`.nomcomuna AS `viewProfileUser_nomcomuna`, `viewProfileUser`.sociedad_id AS `viewProfileUser_sociedad_id`, `viewProfileUser`.sede_id AS `viewProfileUser_sede_id`, `viewProfileUser`.departamento_id AS `viewProfileUser_departamento_id`, `viewProfileUser`.nomdepartamento AS `viewProfileUser_nomdepartamento`, `viewProfileUser`.grupo_empleados_id AS `viewProfileUser_grupo_empleados_id`, `viewProfileUser`.nombre_grupo AS `viewProfileUser_nombre_grupo`, `viewProfileUser`.nombre_sede AS `viewProfileUser_nombre_sede`, `viewProfileUser`.salario_base AS `viewProfileUser_salario_base`, `viewProfileUser`.periodo_salario AS `viewProfileUser_periodo_salario`, `viewProfileUser`.unidad_sueldo AS `viewProfileUser_unidad_sueldo`, `viewProfileUser`.dias_descanso AS `viewProfileUser_dias_descanso`, `viewProfileUser`.tipo_contrato_id AS `viewProfileUser_tipo_contrato_id`, `viewProfileUser`.termino_contrato_id AS `viewProfileUser_termino_contrato_id`, `viewProfileUser`.fecha_inicio AS `viewProfileUser_fecha_inicio`, `viewProfileUser`.fecha_fin AS `viewProfileUser_fecha_fin`, `viewProfileUser`.hora_ingreso AS `viewProfileUser_hora_ingreso`, `viewProfileUser`.hora_egreso AS `viewProfileUser_hora_egreso`, `viewProfileUser`.modalidad AS `viewProfileUser_modalidad`, `viewProfileUser`.jefatura AS `viewProfileUser_jefatura`, `viewProfileUser`.nivel_estudio AS `viewProfileUser_nivel_estudio`, `viewProfileUser`.nivel_estudio_id AS `viewProfileUser_nivel_estudio_id`, `viewProfileUser`.cargo AS `viewProfileUser_cargo`, `viewProfileUser`.cargo_id AS `viewProfileUser_cargo_id`, `viewProfileUser`.banco_id AS `viewProfileUser_banco_id`, `viewProfileUser`.numero_cuenta AS `viewProfileUser_numero_cuenta`, `viewProfileUser`.en_uso AS `viewProfileUser_en_uso`, `viewProfileUser`.terceros AS `viewProfileUser_terceros`, `viewProfileUser`.rut_tercero AS `viewProfileUser_rut_tercero`, `viewProfileUser`.nombre_tercero AS `viewProfileUser_nombre_tercero`, `viewProfileUser`.email_tercero AS `viewProfileUser_email_tercero`, `viewProfileUser`.vacaciones_acumuladas AS `viewProfileUser_vacaciones_acumuladas`, `viewProfileUser`.nombre_banco AS `viewProfileUser_nombre_banco`, `viewProfileUser`.medio_pago AS `viewProfileUser_medio_pago`, `viewProfileUser`.tipo_cuenta AS `viewProfileUser_tipo_cuenta`, `viewProfileUser`.foto AS `viewProfileUser_foto` 
+FROM `viewProfileUser` 
+WHERE `viewProfileUser`.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00062s] {'id_1': 1, 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 10:47:1715611643
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `viewProfileUser`.id AS `viewProfileUser_id`, `viewProfileUser`.rut AS `viewProfileUser_rut`, `viewProfileUser`.rut_provisorio AS `viewProfileUser_rut_provisorio`, `viewProfileUser`.`Nacionalidad` AS `viewProfileUser_Nacionalidad`, `viewProfileUser`.nombres AS `viewProfileUser_nombres`, `viewProfileUser`.apellido_paterno AS `viewProfileUser_apellido_paterno`, `viewProfileUser`.apellido_materno AS `viewProfileUser_apellido_materno`, `viewProfileUser`.fecha_nacimiento AS `viewProfileUser_fecha_nacimiento`, `viewProfileUser`.sexo_id AS `viewProfileUser_sexo_id`, `viewProfileUser`.estado_civil_id AS `viewProfileUser_estado_civil_id`, `viewProfileUser`.descripcion_estado_civil AS `viewProfileUser_descripcion_estado_civil`, `viewProfileUser`.nacionalidad_id AS `viewProfileUser_nacionalidad_id`, `viewProfileUser`.username AS `viewProfileUser_username`, `viewProfileUser`.activo AS `viewProfileUser_activo`, `viewProfileUser`.email AS `viewProfileUser_email`, `viewProfileUser`.fijo AS `viewProfileUser_fijo`, `viewProfileUser`.movil AS `viewProfileUser_movil`, `viewProfileUser`.region_id AS `viewProfileUser_region_id`, `viewProfileUser`.comuna_id AS `viewProfileUser_comuna_id`, `viewProfileUser`.direccion AS `viewProfileUser_direccion`, `viewProfileUser`.nomregion AS `viewProfileUser_nomregion`, `viewProfileUser`.orden AS `viewProfileUser_orden`, `viewProfileUser`.nomcomuna AS `viewProfileUser_nomcomuna`, `viewProfileUser`.sociedad_id AS `viewProfileUser_sociedad_id`, `viewProfileUser`.sede_id AS `viewProfileUser_sede_id`, `viewProfileUser`.departamento_id AS `viewProfileUser_departamento_id`, `viewProfileUser`.nomdepartamento AS `viewProfileUser_nomdepartamento`, `viewProfileUser`.grupo_empleados_id AS `viewProfileUser_grupo_empleados_id`, `viewProfileUser`.nombre_grupo AS `viewProfileUser_nombre_grupo`, `viewProfileUser`.nombre_sede AS `viewProfileUser_nombre_sede`, `viewProfileUser`.salario_base AS `viewProfileUser_salario_base`, `viewProfileUser`.periodo_salario AS `viewProfileUser_periodo_salario`, `viewProfileUser`.unidad_sueldo AS `viewProfileUser_unidad_sueldo`, `viewProfileUser`.dias_descanso AS `viewProfileUser_dias_descanso`, `viewProfileUser`.tipo_contrato_id AS `viewProfileUser_tipo_contrato_id`, `viewProfileUser`.termino_contrato_id AS `viewProfileUser_termino_contrato_id`, `viewProfileUser`.fecha_inicio AS `viewProfileUser_fecha_inicio`, `viewProfileUser`.fecha_fin AS `viewProfileUser_fecha_fin`, `viewProfileUser`.hora_ingreso AS `viewProfileUser_hora_ingreso`, `viewProfileUser`.hora_egreso AS `viewProfileUser_hora_egreso`, `viewProfileUser`.modalidad AS `viewProfileUser_modalidad`, `viewProfileUser`.jefatura AS `viewProfileUser_jefatura`, `viewProfileUser`.nivel_estudio AS `viewProfileUser_nivel_estudio`, `viewProfileUser`.nivel_estudio_id AS `viewProfileUser_nivel_estudio_id`, `viewProfileUser`.cargo AS `viewProfileUser_cargo`, `viewProfileUser`.cargo_id AS `viewProfileUser_cargo_id`, `viewProfileUser`.banco_id AS `viewProfileUser_banco_id`, `viewProfileUser`.numero_cuenta AS `viewProfileUser_numero_cuenta`, `viewProfileUser`.en_uso AS `viewProfileUser_en_uso`, `viewProfileUser`.terceros AS `viewProfileUser_terceros`, `viewProfileUser`.rut_tercero AS `viewProfileUser_rut_tercero`, `viewProfileUser`.nombre_tercero AS `viewProfileUser_nombre_tercero`, `viewProfileUser`.email_tercero AS `viewProfileUser_email_tercero`, `viewProfileUser`.vacaciones_acumuladas AS `viewProfileUser_vacaciones_acumuladas`, `viewProfileUser`.nombre_banco AS `viewProfileUser_nombre_banco`, `viewProfileUser`.medio_pago AS `viewProfileUser_medio_pago`, `viewProfileUser`.tipo_cuenta AS `viewProfileUser_tipo_cuenta`, `viewProfileUser`.foto AS `viewProfileUser_foto` 
+FROM `viewProfileUser` 
+WHERE `viewProfileUser`.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00050s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT `viewProfileUser`.id AS `viewProfileUser_id`, `viewProfileUser`.rut AS `viewProfileUser_rut`, `viewProfileUser`.rut_provisorio AS `viewProfileUser_rut_provisorio`, `viewProfileUser`.`Nacionalidad` AS `viewProfileUser_Nacionalidad`, `viewProfileUser`.nombres AS `viewProfileUser_nombres`, `viewProfileUser`.apellido_paterno AS `viewProfileUser_apellido_paterno`, `viewProfileUser`.apellido_materno AS `viewProfileUser_apellido_materno`, `viewProfileUser`.fecha_nacimiento AS `viewProfileUser_fecha_nacimiento`, `viewProfileUser`.sexo_id AS `viewProfileUser_sexo_id`, `viewProfileUser`.estado_civil_id AS `viewProfileUser_estado_civil_id`, `viewProfileUser`.descripcion_estado_civil AS `viewProfileUser_descripcion_estado_civil`, `viewProfileUser`.nacionalidad_id AS `viewProfileUser_nacionalidad_id`, `viewProfileUser`.username AS `viewProfileUser_username`, `viewProfileUser`.activo AS `viewProfileUser_activo`, `viewProfileUser`.email AS `viewProfileUser_email`, `viewProfileUser`.fijo AS `viewProfileUser_fijo`, `viewProfileUser`.movil AS `viewProfileUser_movil`, `viewProfileUser`.region_id AS `viewProfileUser_region_id`, `viewProfileUser`.comuna_id AS `viewProfileUser_comuna_id`, `viewProfileUser`.direccion AS `viewProfileUser_direccion`, `viewProfileUser`.nomregion AS `viewProfileUser_nomregion`, `viewProfileUser`.orden AS `viewProfileUser_orden`, `viewProfileUser`.nomcomuna AS `viewProfileUser_nomcomuna`, `viewProfileUser`.sociedad_id AS `viewProfileUser_sociedad_id`, `viewProfileUser`.sede_id AS `viewProfileUser_sede_id`, `viewProfileUser`.departamento_id AS `viewProfileUser_departamento_id`, `viewProfileUser`.nomdepartamento AS `viewProfileUser_nomdepartamento`, `viewProfileUser`.grupo_empleados_id AS `viewProfileUser_grupo_empleados_id`, `viewProfileUser`.nombre_grupo AS `viewProfileUser_nombre_grupo`, `viewProfileUser`.nombre_sede AS `viewProfileUser_nombre_sede`, `viewProfileUser`.salario_base AS `viewProfileUser_salario_base`, `viewProfileUser`.periodo_salario AS `viewProfileUser_periodo_salario`, `viewProfileUser`.unidad_sueldo AS `viewProfileUser_unidad_sueldo`, `viewProfileUser`.dias_descanso AS `viewProfileUser_dias_descanso`, `viewProfileUser`.tipo_contrato_id AS `viewProfileUser_tipo_contrato_id`, `viewProfileUser`.termino_contrato_id AS `viewProfileUser_termino_contrato_id`, `viewProfileUser`.fecha_inicio AS `viewProfileUser_fecha_inicio`, `viewProfileUser`.fecha_fin AS `viewProfileUser_fecha_fin`, `viewProfileUser`.hora_ingreso AS `viewProfileUser_hora_ingreso`, `viewProfileUser`.hora_egreso AS `viewProfileUser_hora_egreso`, `viewProfileUser`.modalidad AS `viewProfileUser_modalidad`, `viewProfileUser`.jefatura AS `viewProfileUser_jefatura`, `viewProfileUser`.nivel_estudio AS `viewProfileUser_nivel_estudio`, `viewProfileUser`.nivel_estudio_id AS `viewProfileUser_nivel_estudio_id`, `viewProfileUser`.cargo AS `viewProfileUser_cargo`, `viewProfileUser`.cargo_id AS `viewProfileUser_cargo_id`, `viewProfileUser`.banco_id AS `viewProfileUser_banco_id`, `viewProfileUser`.numero_cuenta AS `viewProfileUser_numero_cuenta`, `viewProfileUser`.en_uso AS `viewProfileUser_en_uso`, `viewProfileUser`.terceros AS `viewProfileUser_terceros`, `viewProfileUser`.rut_tercero AS `viewProfileUser_rut_tercero`, `viewProfileUser`.nombre_tercero AS `viewProfileUser_nombre_tercero`, `viewProfileUser`.email_tercero AS `viewProfileUser_email_tercero`, `viewProfileUser`.vacaciones_acumuladas AS `viewProfileUser_vacaciones_acumuladas`, `viewProfileUser`.nombre_banco AS `viewProfileUser_nombre_banco`, `viewProfileUser`.medio_pago AS `viewProfileUser_medio_pago`, `viewProfileUser`.tipo_cuenta AS `viewProfileUser_tipo_cuenta`, `viewProfileUser`.foto AS `viewProfileUser_foto` 
+FROM `viewProfileUser` 
+WHERE `viewProfileUser`.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00061s] {'id_1': 1, 'param_1': 1}
+ERROR:sqlalchemy.pool.impl.QueuePool:Exception during reset or similar
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.12/site-packages/sqlalchemy/pool/base.py", line 988, in _finalize_fairy
+    fairy._reset(
+  File "/usr/local/lib64/python3.12/site-packages/sqlalchemy/pool/base.py", line 1438, in _reset
+    pool._dialect.do_rollback(self)
+  File "/usr/local/lib64/python3.12/site-packages/sqlalchemy/engine/default.py", line 692, in do_rollback
+    dbapi_connection.rollback()
+  File "/usr/local/lib/python3.12/site-packages/pymysql/connections.py", line 488, in rollback
+    self._read_ok_packet()
+  File "/usr/local/lib/python3.12/site-packages/pymysql/connections.py", line 448, in _read_ok_packet
+    pkt = self._read_packet()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.12/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.12/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1927, 'Connection was killed')
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 11:27:1715614049
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 11:39:1715614769
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `Sociedad`.id AS `Sociedad_id`, `Sociedad`.rut AS `Sociedad_rut`, `Sociedad`.nombre AS `Sociedad_nombre`, `Sociedad`.direccion AS `Sociedad_direccion`, `Sociedad`.region_id AS `Sociedad_region_id`, `Sociedad`.comuna_id AS `Sociedad_comuna_id`, `Sociedad`.ciudad AS `Sociedad_ciudad`, `Sociedad`.icono AS `Sociedad_icono`, `Sociedad`.email AS `Sociedad_email`, `Sociedad`.responsable AS `Sociedad_responsable`, `Sociedad`.rut_responsable AS `Sociedad_rut_responsable`, `Sociedad`.email_responsable AS `Sociedad_email_responsable`, `Sociedad`.telefono_responsable AS `Sociedad_telefono_responsable`, `Sociedad`.created AS `Sociedad_created`, `Sociedad`.updated AS `Sociedad_updated`, `Sociedad`.creator_user AS `Sociedad_creator_user`, `Sociedad`.updater_user AS `Sociedad_updater_user` 
+FROM `Sociedad` 
+WHERE `Sociedad`.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00058s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT `Sociedad`.id AS `Sociedad_id`, `Sociedad`.rut AS `Sociedad_rut`, `Sociedad`.nombre AS `Sociedad_nombre`, `Sociedad`.direccion AS `Sociedad_direccion`, `Sociedad`.region_id AS `Sociedad_region_id`, `Sociedad`.comuna_id AS `Sociedad_comuna_id`, `Sociedad`.ciudad AS `Sociedad_ciudad`, `Sociedad`.icono AS `Sociedad_icono`, `Sociedad`.email AS `Sociedad_email`, `Sociedad`.responsable AS `Sociedad_responsable`, `Sociedad`.rut_responsable AS `Sociedad_rut_responsable`, `Sociedad`.email_responsable AS `Sociedad_email_responsable`, `Sociedad`.telefono_responsable AS `Sociedad_telefono_responsable`, `Sociedad`.created AS `Sociedad_created`, `Sociedad`.updated AS `Sociedad_updated`, `Sociedad`.creator_user AS `Sociedad_creator_user`, `Sociedad`.updater_user AS `Sociedad_updater_user` 
+FROM `Sociedad` 
+WHERE `Sociedad`.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00085s] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `BancariosSociedad`.id AS `BancariosSociedad_id`, `BancariosSociedad`.sociedad_id AS `BancariosSociedad_sociedad_id`, `BancariosSociedad`.banco_id AS `BancariosSociedad_banco_id`, `BancariosSociedad`.numero_cuenta AS `BancariosSociedad_numero_cuenta`, `BancariosSociedad`.codigo_convenio AS `BancariosSociedad_codigo_convenio`, `BancariosSociedad`.giro_empresa AS `BancariosSociedad_giro_empresa`, `BancariosSociedad`.razon_social AS `BancariosSociedad_razon_social`, `BancariosSociedad`.ocultar_email AS `BancariosSociedad_ocultar_email`, `BancariosSociedad`.created AS `BancariosSociedad_created`, `BancariosSociedad`.updated AS `BancariosSociedad_updated`, `BancariosSociedad`.creator_user AS `BancariosSociedad_creator_user`, `BancariosSociedad`.updater_user AS `BancariosSociedad_updater_user` 
+FROM `BancariosSociedad` 
+WHERE `BancariosSociedad`.sociedad_id = %(sociedad_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00053s] {'sociedad_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `MutualesSociedad`.id AS `MutualesSociedad_id`, `MutualesSociedad`.sociedad_id AS `MutualesSociedad_sociedad_id`, `MutualesSociedad`.mutual_id AS `MutualesSociedad_mutual_id`, `MutualesSociedad`.porcentaje AS `MutualesSociedad_porcentaje`, `MutualesSociedad`.created AS `MutualesSociedad_created`, `MutualesSociedad`.updated AS `MutualesSociedad_updated`, `MutualesSociedad`.creator_user AS `MutualesSociedad_creator_user`, `MutualesSociedad`.updater_user AS `MutualesSociedad_updater_user` 
+FROM `MutualesSociedad` 
+WHERE `MutualesSociedad`.sociedad_id = %(sociedad_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00048s] {'sociedad_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT `MutualesSociedad`.id AS `MutualesSociedad_id`, `MutualesSociedad`.sociedad_id AS `MutualesSociedad_sociedad_id`, `MutualesSociedad`.mutual_id AS `MutualesSociedad_mutual_id`, `MutualesSociedad`.porcentaje AS `MutualesSociedad_porcentaje`, `MutualesSociedad`.created AS `MutualesSociedad_created`, `MutualesSociedad`.updated AS `MutualesSociedad_updated`, `MutualesSociedad`.creator_user AS `MutualesSociedad_creator_user`, `MutualesSociedad`.updater_user AS `MutualesSociedad_updater_user` 
+FROM `MutualesSociedad` 
+WHERE `MutualesSociedad`.sociedad_id = %(sociedad_id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00046s] {'sociedad_id_1': 1, 'param_1': 1}
+ERROR:root:Fecha 2024-05-13 11:53:49
+ERROR:root:Error 'dict' object has no attribute 'banco_id'
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT `Sociedad`.id AS `Sociedad_id`, `Sociedad`.rut AS `Sociedad_rut`, `Sociedad`.nombre AS `Sociedad_nombre`, `Sociedad`.direccion AS `Sociedad_direccion`, `Sociedad`.region_id AS `Sociedad_region_id`, `Sociedad`.comuna_id AS `Sociedad_comuna_id`, `Sociedad`.ciudad AS `Sociedad_ciudad`, `Sociedad`.icono AS `Sociedad_icono`, `Sociedad`.email AS `Sociedad_email`, `Sociedad`.responsable AS `Sociedad_responsable`, `Sociedad`.rut_responsable AS `Sociedad_rut_responsable`, `Sociedad`.email_responsable AS `Sociedad_email_responsable`, `Sociedad`.telefono_responsable AS `Sociedad_telefono_responsable`, `Sociedad`.created AS `Sociedad_created`, `Sociedad`.updated AS `Sociedad_updated`, `Sociedad`.creator_user AS `Sociedad_creator_user`, `Sociedad`.updater_user AS `Sociedad_updater_user` 
+FROM `Sociedad` 
+WHERE `Sociedad`.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 115.8s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT `Sociedad`.id AS `Sociedad_id`, `Sociedad`.rut AS `Sociedad_rut`, `Sociedad`.nombre AS `Sociedad_nombre`, `Sociedad`.direccion AS `Sociedad_direccion`, `Sociedad`.region_id AS `Sociedad_region_id`, `Sociedad`.comuna_id AS `Sociedad_comuna_id`, `Sociedad`.ciudad AS `Sociedad_ciudad`, `Sociedad`.icono AS `Sociedad_icono`, `Sociedad`.email AS `Sociedad_email`, `Sociedad`.responsable AS `Sociedad_responsable`, `Sociedad`.rut_responsable AS `Sociedad_rut_responsable`, `Sociedad`.email_responsable AS `Sociedad_email_responsable`, `Sociedad`.telefono_responsable AS `Sociedad_telefono_responsable`, `Sociedad`.created AS `Sociedad_created`, `Sociedad`.updated AS `Sociedad_updated`, `Sociedad`.creator_user AS `Sociedad_creator_user`, `Sociedad`.updater_user AS `Sociedad_updater_user` 
+FROM `Sociedad` 
+WHERE `Sociedad`.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 115.8s ago] {'id_1': 1, 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2024-05-13 13:49:1715622550
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Regiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Comunas`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUbicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoColacionUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`FotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoFotosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCVUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoEstatusInscripcion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratoUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosLaborales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`DatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDatosPago`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFC`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuariosPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Modulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser3`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewPrecargaUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`SociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedadUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewUsuariosGruposEmpleados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfileUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Contratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewProfilePreUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UsuarioModulo`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CargosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`ArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoArchivosUsuarios`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralBancariosUser`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Bancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`AFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAFP`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`APVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoAPVInstituciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Sede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Departamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Configuraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUserSDG2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewGeneralUser2`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`viewNoContratados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`EstadoCivil`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Nacionalidad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Cargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`NivelEstudio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`BancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoBancariosSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`MutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutualesSociedad`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`PrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`GrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoSede`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoDepartamentos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGruposEmpleado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCargos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Mutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoMutuales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`UnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoUnidadesPacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Periodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPeriodos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCategoriasConfiguracion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoConfiguraciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentrosDeCostos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Dimensiones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`Centralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoGrupoCentralizaciones`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoPrevisionSalud`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCuentasContables`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTiposPrestamos`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`CajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCajasCompensacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosImpuestoUnico`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`TramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoTramosAsignacionFamiliar`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `b1`.`HistoricoCamposAdicionales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
